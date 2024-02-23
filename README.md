@@ -1,3 +1,4 @@
 # Set-Up-NewPC
-# install Arch linux
+## install Arch linux
+
    
