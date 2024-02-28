@@ -6,3 +6,6 @@ yay -S visual-studio-code-bin
 ## sf package
 sudo pacman -S gdal proj geos arrow podofo
 yay -S udunits
+
+## fonts
+yay -S ttf-ms-win11-auto
