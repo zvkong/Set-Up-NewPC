@@ -9,3 +9,28 @@ yay -S udunits
 
 ## fonts
 yay -S ttf-ms-win11-auto
+
+## input method
+sudo pacman -Sy fcitx-im
+sudo pacman -Sy fcitx-chinese-addons
+sudo pacman -Sy fcitx-configtool
+sudo nano /etc/enviroment 
+
+##Fcitx
+
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+
+##IBus
+
+GTK_IM_MODULE=ibus
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=ibus
+
+##Uim
+
+
+GTK_IM_MODULE=uim
+QT_IM_MODULE=uim
+XMODIFIERS=@im=uim
