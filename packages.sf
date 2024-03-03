@@ -35,3 +35,6 @@ GTK_IM_MODULE=uim
 QT_IM_MODULE=uim
 XMODIFIERS=@im=uim
 
+## Set up
+/org/gnome/desktop/wm/keybindings/toggle-maximized
+  ['<Shift><Super>m']
