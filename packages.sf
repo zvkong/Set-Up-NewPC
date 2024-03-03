@@ -38,3 +38,13 @@ XMODIFIERS=@im=uim
 ## Set up
 /org/gnome/desktop/wm/keybindings/toggle-maximized
   ['<Shift><Super>m']
+
+/org/gnome/desktop/wm/keybindings/close
+  ['<Control>q']
+
+/org/gnome/settings-daemon/plugins/media-keys/magnifier-zoom-in
+  ['<Control>equal']
+
+/org/gnome/settings-daemon/plugins/media-keys/magnifier-zoom-out
+  ['<Control>minus']
+
