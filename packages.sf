@@ -16,6 +16,8 @@ sudo pacman -Sy fcitx-chinese-addons
 sudo pacman -Sy fcitx-configtool
 sudo nano /etc/enviroment 
 
+sudo pacman -Sy ibus-pinyin ibus-libpinyin
+
 ##Fcitx
 
 GTK_IM_MODULE=fcitx
