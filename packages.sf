@@ -50,3 +50,23 @@ XMODIFIERS=@im=uim
 /org/gnome/settings-daemon/plugins/media-keys/magnifier-zoom-out
   ['<Control>minus']
 
+
+## Shortcut
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings
+  ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding
+  '<Control><Super>f'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command
+  'firefox'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name
+  'Firefox'
+
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings
+  ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/binding
+  '<Control><Super>e'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/command
+  'emacs'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/name
+  'Emacs'
+
