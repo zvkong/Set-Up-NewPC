@@ -70,3 +70,13 @@ XMODIFIERS=@im=uim
 /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/name
   'Emacs'
 
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings
+  ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/binding
+  '<Alt>s'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/command
+  'steam'
+/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/name
+  'Steam'
+
+
