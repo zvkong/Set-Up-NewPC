@@ -11,9 +11,9 @@ yay -S udunits
 yay -S ttf-ms-win11-auto
 
 ## input method
-sudo pacman -Sy fcitx-im
-sudo pacman -Sy fcitx-chinese-addons
-sudo pacman -Sy fcitx-configtool
+sudo pacman -Sy fcitx5-im
+sudo pacman -Sy fcitx5-chinese-addons
+sudo pacman -Sy fcitx5-configtool
 sudo nano /etc/enviroment 
 
 sudo pacman -Sy ibus-pinyin ibus-libpinyin
