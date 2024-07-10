@@ -1,9 +1,12 @@
 # research
-conda create -n research python=3.11
-source activate research
+conda create -n R
+conda activate R
 ## r
-conda install conda-forge::r-base conda-forge::r-tidyverse conda-forge::r-sf conda-forge::r-spdep conda-forge::r-fields conda-forge::r-languageserver conda-forge::r-tidybayes conda-forge::r-rstan conda-forge::r-devtools conda-forge::r-mice conda-forge::sqlite conda-forge::r-bayeslogit
-## python
+conda install r r-essentials --channel conda-forge
+conda install r-base r-tidyverse r-sf r-spdep r-fields r-languageserver r-tidybayes r-rstan r-devtools r-mice sqlite r-bayeslogit --channel conda-forge
+
+## in R if graphic error
+chooseCRANmirror(graphics=FALSE)
 # don't use pip to install pyright
 conda install conda-forge::pyright
 pip install numpy scipy pandas matplotlib seaborn scikit-learn jupytext ipython tqdm
