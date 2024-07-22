@@ -4,3 +4,7 @@ nano ~/.ssh/known_hosts
 ## Type the number of the line with the problem key (12 in the example above), Press Return/Enter.
 ## Now you will be at the beginning of the line with the problem key. Press Control-K to delete this line.
 ## To exit and save this change, press Control-X. You will be asked if you want to save the modified buffer. Press Y to start the save process. Then press Return/Enter when File Name to Write: is displayed.
+
+
+## Remote ssh anywhere
+set Gateway as yes in sshd_config (C:\ProgramData\ssh)
