@@ -1,2 +1,7 @@
+
+install.packages("languageserver")
 ## keybinding
 Ctrl+K Ctrl+S
+
+
+link: https://code.visualstudio.com/docs/languages/r
